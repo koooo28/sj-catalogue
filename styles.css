@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: #EDD400;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid #EDD400;
+    background-color: white;
+    color: black;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-card {
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #EDD400;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.car-card h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #EDD400;
+}
+
+.car-card p {
+    margin: 5px 0;
+    color: #EDD400;
+}
+
+.car-card button {
+    background-color: #EDD400;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.car-card button:hover {
+    background-color: #d4b300;
+}
