@@ -31,7 +31,7 @@ header {
 /* Car grid layout */
 .car-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted for better mobile responsiveness */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted for better mobile responsiveness */
     gap: 20px;
     padding: 20px;
 }
@@ -100,6 +100,7 @@ header {
 /* Media query for mobile devices */
 @media (max-width: 600px) {
     .car-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Further adjustment for smaller screens */
+        grid-template-columns: 1fr 1fr; /* Force two columns on small screens */
+        gap: 10px; /* Adjust gap for smaller screens */
     }
 }
