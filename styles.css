@@ -10,46 +10,53 @@ body {
 header {
     background-color: black;
     color: #EDD400;
-    padding: 15px 20px;
+    padding: 10px 20px;
     text-align: center;
-    font-size: 24px; /* Balanced font size */
+    font-size: 22px;
 }
 
 /* Search bar styles */
 #search-bar {
-    width: 50%;
+    width: 80%;
+    max-width: 400px;
     padding: 10px;
     margin: 20px auto;
-    font-size: 14px; /* Consistent font size */
+    font-size: 14px;
     border: 2px solid #EDD400;
     background-color: white;
     color: black;
     display: block;
     border-radius: 5px;
+    text-align: center;
 }
 
 /* Car grid layout */
 .car-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px; /* Consistent gap across the layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
     padding: 20px;
 }
 
 /* Car card styles */
 .car-card {
     background-color: black;
-    padding: 10px; /* Unified padding */
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: #EDD400;
+    height: 100%; /* Ensures cards stretch to the full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Car card image styling */
 .car-card img {
     width: 100%;
-    height: auto;
+    height: 150px; /* Fixed height for images to maintain consistency */
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -63,7 +70,7 @@ header {
 /* Car details styling */
 .car-card p {
     margin: 5px 0;
-    font-size: 14px; /* Consistent font size */
+    font-size: 14px;
     color: #EDD400;
 }
 
@@ -73,11 +80,11 @@ header {
     background-color: #EDD400;
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 14px; /* Consistent font size */
+    font-size: 14px;
 }
 
 .fb-link:hover {
@@ -92,7 +99,7 @@ header {
     color: #EDD400;
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px; /* Consistent font size */
+    font-size: 14px;
 }
 
 .back-link:hover {
@@ -102,7 +109,7 @@ header {
 /* Media query for mobile devices */
 @media (max-width: 600px) {
     .car-grid {
-        grid-template-columns: 1fr 1fr; /* Force two columns on small screens */
-        gap: 10px; /* Adjust gap for smaller screens */
+        grid-template-columns: 1fr 1fr; /* Ensures two columns on small screens */
+        gap: 10px;
     }
 }
