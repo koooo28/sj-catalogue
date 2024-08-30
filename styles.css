@@ -20,7 +20,7 @@ header {
     width: 50%;
     padding: 12px;
     margin: 20px auto; /* Centered the search bar */
-    font-size: 16px;
+    font-size: 14px;
     border: 2px solid #EDD400;
     background-color: white;
     color: black;
@@ -56,7 +56,7 @@ header {
 /* Car model heading */
 .car-card h2 {
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 16px;
     color: #EDD400;
 }
 
@@ -90,7 +90,7 @@ header {
     color: #EDD400;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .back-link:hover {
