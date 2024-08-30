@@ -12,34 +12,34 @@ header {
     color: #EDD400;
     padding: 15px 20px;
     text-align: center;
-    font-size: 28px; /* Increased font size for better visibility */
+    font-size: 24px; /* Balanced font size */
 }
 
 /* Search bar styles */
 #search-bar {
     width: 50%;
-    padding: 12px;
-    margin: 20px auto; /* Centered the search bar */
-    font-size: 14px;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 14px; /* Consistent font size */
     border: 2px solid #EDD400;
     background-color: white;
     color: black;
-    display: block; /* Ensures it behaves as a block element */
-    border-radius: 5px; /* Added border radius for consistency */
+    display: block;
+    border-radius: 5px;
 }
 
 /* Car grid layout */
 .car-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted for better mobile responsiveness */
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px; /* Consistent gap across the layout */
     padding: 20px;
 }
 
 /* Car card styles */
 .car-card {
     background-color: black;
-    padding: 15px;
+    padding: 10px; /* Unified padding */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -63,6 +63,7 @@ header {
 /* Car details styling */
 .car-card p {
     margin: 5px 0;
+    font-size: 14px; /* Consistent font size */
     color: #EDD400;
 }
 
@@ -76,6 +77,7 @@ header {
     border-radius: 5px;
     margin-top: 10px;
     font-weight: bold;
+    font-size: 14px; /* Consistent font size */
 }
 
 .fb-link:hover {
@@ -90,7 +92,7 @@ header {
     color: #EDD400;
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 14px; /* Consistent font size */
 }
 
 .back-link:hover {
