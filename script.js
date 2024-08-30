@@ -104,13 +104,92 @@ const cars = [
         price: "RM44,800",
         image: "images/Navara.jpg",
         fbLink: "https://www.facebook.com/reel/804390764845742"
-    }
-
-
-
-
-
-
+    },
+    {
+        model: "Perodua Axia 1.0 (A)",
+        year: 2020,
+        price: "RM29,800",
+        image: "images/Axia.jpg",
+        fbLink: "https://www.facebook.com/reel/375564498911655"
+    },
+    {
+        model: "Proton Exora 1.6 (A)",
+        year: 2013,
+        price: "RM23,800",
+        image: "images/Exora.jpg",
+        fbLink: "https://www.facebook.com/reel/375564498911655"
+    },
+    {
+        model: "Proton Ertiga 1.4 (A)",
+        year: 2018,
+        price: "RM39,800",
+        image: "images/Ertiga.jpg",
+        fbLink: "https://www.facebook.com/reel/846400420677165"
+    },
+    {
+        model: "Proton Iriz 1.3 (A)",
+        year: 2020,
+        price: "RM32,800",
+        image: "images/Iriz.jpg",
+        fbLink: "https://www.facebook.com/share/p/5rxhbWZgko3szF28/"
+    },
+    {
+        model: "Proton Persona 1.6 (A)",
+        year: 2017,
+        price: "RM27,800",
+        image: "images/Persona.jpg",
+        fbLink: "https://www.facebook.com/61555598019562/videos/1905500983231347/"
+    },
+    {
+        model: "Proton Saga 1.3 (A)",
+        year: 2018,
+        price: "RM24,800",
+        image: "images/Saga.jpg",
+        fbLink: "https://www.facebook.com/reel/504574555318820"
+    },
+    {
+        model: "Toyota Alphard 2.5 (A)",
+        year: 2017/19,
+        price: "RM179,800",
+        image: "images/Alphard.jpg",
+        fbLink: "https://fb.watch/uhKD91_rLX/"
+    },
+    {
+        model: "Toyota ESTIMA 2.4 (A)",
+        year: 2013/15,
+        price: "RM94,800",
+        image: "images/Estima.jpg",
+        fbLink: ""
+    },
+    {
+        model: "Toyota Hilux 2.4 (A)",
+        year: 2021,
+        price: "RM105,800",
+        image: "images/Hilux.jpg",
+        fbLink: "https://www.facebook.com/reel/412485734600652"
+    },
+    {
+        model: "PEUGEOT 3008 1.5 (A)",
+        year: 2018,
+        price: "RM64,800",
+        image: "images/Peugeot.jpg",
+        fbLink: "https://www.facebook.com/reel/1036467154547260"
+    },
+    {
+        model: "Toyota Vellfire 2.5 (A)",
+        year: 2016/18,
+        price: "RM149,800",
+        image: "images/Vellfire.jpg",
+        fbLink: "https://www.facebook.com/share/v/Uqz5WRHhLdkLQUCJ/"
+    },
+    {
+        model: "Toyota Rush 1.5 (A)",
+        year: 2008,
+        price: "RM19,800",
+        image: "images/Rush.jpg",
+        fbLink: "https://www.facebook.com/share/v/kv7cKyQKxp9CUn6x/"
+    }         
+   
     
 ];
 
